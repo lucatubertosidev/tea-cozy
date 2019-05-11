@@ -1,0 +1,175 @@
+/* Universal Styles */
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.375rem;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: auto;
+}
+
+a {
+    color: seashell;
+}
+
+.flex {
+    display: flex;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.dark-background {
+    background-color: black;
+}
+
+/* Header */
+
+header.logo-navigation {
+    position: fixed;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+
+nav {
+    width: 40%;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+main {
+    position: relative;
+    top: 69px;
+    text-align: center;
+}
+
+/* Main Banner */
+
+.banner {
+    height: 43.75rem;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: no-repeat center/cover url('images/img-mission-background.jpg');
+}
+
+.banner header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.banner h2,
+h4 {
+    margin: 1rem;
+}
+
+/* Tea of the Month */
+
+.totm {
+    max-width: 1000px;
+    margin: 4rem auto;
+}
+
+header.totm-header {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+header.totm-header h2,
+h4 {
+    margin: 0.5rem;
+}
+
+.totm img {
+    width: 300px;
+    height: auto;
+}
+
+.totm article {
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.totm div {
+    padding: 0.625rem;
+}
+
+/* Locations */
+
+.locations {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 500px;
+    max-width: 1200px;
+    margin: 3rem auto 1rem auto;
+    background: no-repeat center/cover url('images/img-locations-background.jpg')
+}
+
+.locations h2 {
+    margin: 0;
+}
+
+.locations h4 {
+    margin: 2rem;
+    font-weight: 300;
+}
+
+section.locations article {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section.locations article div {
+    width: 300px;
+    height: auto;
+    margin: 15px 20px;
+    background-color: black;
+    opacity: 1;
+}
+
+/* Footer */
+
+footer {
+    min-height: 200px;
+}
+
+footer section {
+    text-align: left;
+    padding-left: 20px;
+}
